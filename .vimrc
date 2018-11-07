@@ -11,6 +11,8 @@ inoremap {<cr> {<cr>} <c-o><s-o>
 inoremap [<cr> [<cr>]<c-o><s-o>
 inoremap (<cr> (<cr>) <c-o><s-o>
 
+imap jj <Esc>
+
 map <C-n> :NERDTreeToggle<CR> #NERDTree will opent with ctrl+n
 
 
