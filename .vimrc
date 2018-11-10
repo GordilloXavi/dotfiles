@@ -42,3 +42,9 @@ Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree'
 call plug#end()
 
+
+function! Class()
+    r~/vim/cpp/header.txt
+endfunction
+
+nmap <C-h> :call Class()<CR>
