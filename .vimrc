@@ -47,4 +47,10 @@ function! Class()
     r~/vim/cpp/header.txt
 endfunction
 
+function! ClassM()
+    r~/vim/cpp/matrix.txt
+endfunction
+
 nmap <C-h> :call Class()<CR>
+nmap <C-m> :call ClassM()<CR>
+
