@@ -180,3 +180,6 @@ bindsym XF86AudioPrev exec playerctl previous
 exec spotify
 exec google-chrome
 exec i3-sensible-terminal
+# load wallpaper
+exec_always feh --bg-fill ~/Pictures/wallpaper.jpg
+exec_always randr
