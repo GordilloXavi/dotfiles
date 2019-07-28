@@ -15,6 +15,7 @@ neofetch #when a new zsh session is started, the neofetch command is called
 #ALIASES:   
 
 alias p="python3"
+alias lock="i3lock -etc 000000"
 alias pro="cd && cd Documents/PROGRAMMING/ && pwd"
 
 # Set list of themes to pick from when loading at random
