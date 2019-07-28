@@ -182,4 +182,4 @@ exec google-chrome
 exec i3-sensible-terminal
 # load wallpaper
 exec_always feh --bg-fill ~/Pictures/wallpaper.jpg
-exec_always randr
+exec_always ~/.screenlayout/monitor_config.sh 
