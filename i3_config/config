@@ -157,7 +157,7 @@ bar {
 
 #new config
 #exec executes a bash command
-bindsym $mod+Shift+x exec i3lock -etc 000000 
+bindsym $mod+Shift+x exec i3lock-fancy -t ""
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
@@ -170,7 +170,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
 
 # Media player controls
 bindsym $mod+p exec playerctl play-pause
-bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioPause exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
@@ -183,3 +183,5 @@ exec i3-sensible-terminal
 # load wallpaper
 exec_always feh --bg-fill ~/Pictures/wallpaper.jpg
 exec_always ~/.screenlayout/monitor_config.sh 
+
+exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=secrets

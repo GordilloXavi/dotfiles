@@ -44,9 +44,9 @@ feh --bg-fill ~/Pictures/wallpaper.png
 
 lock screen: 
 mod + Shift + X
-type the following command (create alias)
-i3lock -et -i ~/Pictures/wallpaper.png #fix this
-alias lock
+git clone https://github.com/meskarune/i3lock-fancy.git
+cd i3lock-fancy
+sudo make install
 
 Dual-screen setup: 
 we use a GUI application to manage our monitors
